@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="assemblesystem-service-producer" />
+        <module name="assemblesystem-service-proxy" />
+        <module name="assemblesystem-common" />
+        <module name="assemblesystem-service-consumer" />
+        <module name="assemblesystem-apis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="assemblesystem-apis" target="1.8" />
+      <module name="assemblesystem-common" target="1.8" />
+      <module name="assemblesystem-main" target="1.8" />
+      <module name="assemblesystem-service-consumer" target="1.8" />
+      <module name="assemblesystem-service-producer" target="1.8" />
+      <module name="assemblesystem-service-proxy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="assemblesystem-apis" options="-parameters" />
+      <module name="assemblesystem-common" options="-parameters" />
+      <module name="assemblesystem-main" options="-parameters" />
+      <module name="assemblesystem-service-consumer" options="-parameters" />
+      <module name="assemblesystem-service-producer" options="-parameters" />
+      <module name="assemblesystem-service-proxy" options="-parameters" />
+    </option>
+  </component>
+</project>

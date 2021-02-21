@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/assemblesystem-apis/assemblesystem-apis.iml" filepath="$PROJECT_DIR$/assemblesystem-apis/assemblesystem-apis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assemblesystem-common/assemblesystem-common.iml" filepath="$PROJECT_DIR$/assemblesystem-common/assemblesystem-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assemblesystem-main.iml" filepath="$PROJECT_DIR$/assemblesystem-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assemblesystem-service-consumer/assemblesystem-service-consumer.iml" filepath="$PROJECT_DIR$/assemblesystem-service-consumer/assemblesystem-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assemblesystem-service-producer/assemblesystem-service-producer.iml" filepath="$PROJECT_DIR$/assemblesystem-service-producer/assemblesystem-service-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assemblesystem-service-proxy/assemblesystem-service-proxy.iml" filepath="$PROJECT_DIR$/assemblesystem-service-proxy/assemblesystem-service-proxy.iml" />
+    </modules>
+  </component>
+</project>
