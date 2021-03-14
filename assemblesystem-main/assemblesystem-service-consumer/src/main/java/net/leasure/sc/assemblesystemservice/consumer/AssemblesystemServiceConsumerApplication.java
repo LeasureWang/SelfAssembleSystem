@@ -11,5 +11,4 @@ public class AssemblesystemServiceConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(AssemblesystemServiceConsumerApplication.class, args);
     }
-
 }
